@@ -1,0 +1,53 @@
+/* heading and search bar */
+
+h1 {
+  text-align: center;
+}
+label {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+input {
+  display: block;
+  margin: auto;
+}
+
+button {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+/* styles for article elements */
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.article-element {
+  border: 1px solid black;
+  flex: 0 0 30%;
+  margin: 5px;
+  text-align: center;
+  border-radius: 10%;
+  background-color: lightyellow;
+}
+
+.article-element h3 {
+  border-radius: 10%;
+  color: red;
+}
+
+img {
+  height: 150px;
+  width: 200px;
+  border-radius: 5%;
+
+  display: block;
+  margin: auto;
+  margin-bottom: 5px;
+}
