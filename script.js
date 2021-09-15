@@ -30,7 +30,7 @@ const todayFormatted = todayOffset.toISOString().split("T")[0];
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  //changes the text of the submit button whie fetching
+  //changes the text of the submit button while fetching
   submitButton.innerText = "Searching for articles...";
 
   fetch(
